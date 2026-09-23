@@ -1,0 +1,18 @@
+Claim,Applies to,Classification,Basis,Action
+Handmade,All SKUs,GREEN,Website "How It's Made",Usable
+Traditional fermenting & smoking,Cured/fermented SKUs,GREEN,Website method statement,Usable where SKU is fermented/smoked
+Shelf-stable,Summer sausage/salami/sticks (cured),YELLOW,Website says shelf-stable; confirm per-SKU on label,Confirm on package before stating
+No fillers or binders,All SKUs,YELLOW,Website statement; substantiate per SKU (§19),Confirm on label
+Gluten-free,All SKUs,YELLOW,Website "all products gluten-free"; verify exact SKU (§16),Confirm on package
+Dairy-free,All SKUs,YELLOW,Website "all products dairy-free"; verify exact SKU (§17),Confirm on package
+Roots to 1962 / 60-year recipe,Brand (Image 8),GREEN,Our History page,Usable, no invented photos/people
+Family-owned (Ropp family since 2010),Brand (Image 8),GREEN,Our History page,Usable
+Made in Atwood Ontario,Brand,YELLOW,Website address/history; exact origin wording per package (§21),Use exact package wording; don't interchange
+High protein / protein-rich,All SKUs,RED,Not verified to Canadian nutrient-claim thresholds (§14),Use raw NFt values instead until qualified
+Low sugar / low sodium / low carb,All SKUs,RED,Not verified (§14),Do not use; use raw NFt values
+Fresh / freshly made,Cured SKUs,RED,Products are cured/fermented/smoked/shelf-stable (§22),Prohibited
+100% elk/venison/bison/etc,Game SKUs,RED,Products are pork & beef blends (§20),Never imply exclusive species
+Grass-fed,Angus SKUs only,YELLOW,Title states Grass-Fed Angus; substantiate per SKU (§19),Use only on Angus SKUs, confirm
+Health/gut/immunity/recovery,All SKUs,RED,Blacklist (§15),Prohibited without regulatory review
+Nutrition Facts values,All SKUs,YELLOW,Not yet captured; require label (Priority 1-3),Do not invent; pull from label
+FOP nutrition symbol,All SKUs,YELLOW,Presence unknown until label seen (§13),If present on package, preserve exactly

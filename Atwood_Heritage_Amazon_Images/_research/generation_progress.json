@@ -1,0 +1,122 @@
+{
+  "project": "Atwood Heritage \u2014 Amazon.ca 18 ASIN x 9 images",
+  "expected_total_images": 180,
+  "status": "9-image set COMPLETE (18/18). Wordmark 'SINCE 1962' clip fixed on all 18. Image #10 'everyday carry' added: 13/18 done, 5 pending Codex usage reset (Sep 19 2:39 AM).",
+  "wordmark_fix": "Clamped wordmark to y<=1852 + lifted 05 facts cluster. Sticks/salami re-rendered; pepperoni/summer-sausage patched via panel-recompute (corner-diff 0.0). Contact sheets rebuilt.",
+  "image10_everyday_carry": {
+    "done_13": ["B0G4SL5STQ","B0G4SHBQSV","B0G4SKZLJG","B0G4SLCJMX","B0G4SJJK1F","B0858JH8R9","B0FBSDH627","B0FBS9XQWS","B0FBSF8K9K","B0FBSF8RB3","B0G4VRMHXN","B0FBS8TMCQ","B0FBS8HKM5"],
+    "pending_5": ["B0FBSBCHTQ","B0FBSCFKJS","B0FBSCNBHS","B0856ZDR63","B0G4SK5FH6"],
+    "resume": "_research/_resume10/resume_driver.sh (idempotent; auto-waiter scheduled + manual fallback). Layout: 2x2 trail/school/work/everyday, no faces, product cutout-conditioned."
+  },
+  "style_lock_asin": "B0856ZDR63",
+  "style_locked": false,
+  "blockers": ["Codex plan usage limit \u2014 5 image#10 ASINs resume after Sep 19 2:39 AM"],
+  "done": [
+    "Folder structure (18 ASIN folders + _research + _references)",
+    "BRAND-FOUNDATION.md (verified heritage/method/compliance)",
+    "font_system.md (Libre Baskerville + Montserrat, Canva-locked)",
+    "asin_master_manifest.csv (18 ASINs)",
+    "claim_matrix.csv, source_log.md, compliance_log.md",
+    "B0856ZDR63 research record + 9 Codex prompt drafts"
+  ],
+  "asins": {
+    "B0856ZDR63": {
+      "images_done": 9,
+      "of": 9,
+      "method": "real photos (1,2,6,7) + composites (3,4,5,8,9)"
+    },
+    "_others_17": {
+      "images_done": 0,
+      "of": 9,
+      "research_record": false,
+      "prompts_drafted": false
+    },
+    "B0G4SK5FH6": {
+      "images_done": 9,
+      "of": 9,
+      "note": "fresh scenes (differ from 454g), people in 06/07/08, facts=750g/~25 servings"
+    },
+    "B0G4SL5STQ": {
+      "images_done": 9,
+      "of": 9,
+      "note": "pepperoni format-setter; per-stick facts; Naturally Wood Smoked/Allergen-Free/GF/DF; people 06/07/08; snack scenes"
+    },
+    "B0G4SHBQSV": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Honey Garlic: honey/garlic theme, facts 6/2/4"
+    },
+    "B0G4SKZLJG": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Dill Pickle: dill/pickle theme, facts 6/2/4"
+    },
+    "B0G4SLCJMX": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Smokey BBQ: BBQ/grill theme, facts 6/2/4"
+    },
+    "B0G4SJJK1F": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Spicy Chipotle: chilli/fire theme, facts 6/1/3"
+    },
+    "B0858JH8R9": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Grass-Fed Angus Mild: nitrate-free/100% natural, 7/1/1, 50cal"
+    },
+    "B0FBSDH627": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Grass-Fed Angus Hot: same, chili theme"
+    },
+    "B0FBS9XQWS": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Elk blend (elk+pork+beef), 6/0/1, 45cal, \u00a720 ok"
+    },
+    "B0FBSF8K9K": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Venison blend, 6/0/1, 50cal"
+    },
+    "B0FBSF8RB3": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Wild Boar stick blend, 6/0/1, 50cal"
+    },
+    "B0G4VRMHXN": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Kangaroo stick blend, 5/0/1, 40cal, \u00a720 ok"
+    },
+    "B0FBS8TMCQ": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Grass-Fed Angus salami (beef only), 7/0/1, 100cal, fermented/cold-smoked"
+    },
+    "B0FBS8HKM5": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Bison salami blend, 6/1/1, 80cal"
+    },
+    "B0FBSBCHTQ": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Elk salami blend, 6/0/1, 90cal"
+    },
+    "B0FBSCFKJS": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Venison salami blend, 6/0/1, 90cal"
+    },
+    "B0FBSCNBHS": {
+      "images_done": 9,
+      "of": 9,
+      "note": "Wild Boar salami blend, 6/0/1, 90cal"
+    }
+  },
+  "method": "01 real package on white (Amazon). 02-09: Codex-generated premium editorial scenes conditioned on the REAL product cut-out (texture preserved, faithful re-render), unique scene each, + Baskerville/Avenir graphics + verified brand claims.",
+  "cadence": "Check in after each ASIN"
+}
